@@ -37,14 +37,15 @@ namespace QUERIENDO
         {
             MoverBoton();
             if (btnNO.Location == btnSI.Location || btnNO.Location == label1.Location)
-            {
+            {// si el boton NO se situa sobre el boton SI o el boton NO se situa sobre el texto "Quieres..." se ejecuta el metodo MoverBoton
                 MoverBoton();
             }
         }
 
         private void btnSI_Click(object sender, EventArgs e)
         {
-            panel2.Show();
+            // panel2.Show();
+            MoverBoton();
         }
 
         private void button1_Click(object sender, EventArgs e)
