@@ -52,7 +52,7 @@ namespace QUERIENDO
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //se cierra la aplicacion con el boton1 "Boton de aceptar"
+            //se cierra la aplicacion al hacer click en el boton1 "Boton de aceptar"
             Application.Exit();
         }
     }
